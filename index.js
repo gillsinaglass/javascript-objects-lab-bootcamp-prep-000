@@ -6,4 +6,5 @@ var recipes = {};
 
 function destructivelyUpdateObjectWithKeyAndValue(object,key,value) {
   recipes['Object'] = 'key'
+  return Object
 }
